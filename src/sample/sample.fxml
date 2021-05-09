@@ -10,7 +10,7 @@
 
 <AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#moveSquareKeyPressed" prefHeight="657.0" prefWidth="908.0" style="-fx-background-color: #483D8B;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <children>
-      <BorderPane layoutX="9.0" layoutY="9.0" onDragDetected="#changeTheme" prefHeight="640.0" prefWidth="890.0" style="-fx-background-color: #B0E0E6;">
+      <BorderPane layoutX="9.0" layoutY="9.0" prefHeight="640.0" prefWidth="890.0" style="-fx-background-color: #B0E0E6;">
          <bottom>
             <Label fx:id="Score" style="-fx-background-color: #6f04e0;" text="SCORE:" textFill="WHITE" BorderPane.alignment="BOTTOM_LEFT">
                <font>
